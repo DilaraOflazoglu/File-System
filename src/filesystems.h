@@ -22,16 +22,13 @@ extern struct pnlfs_sb_info *sb_info;
 extern struct pnlfs_superblock *super_block;
 
 
-//OK
 static const struct super_operations pnlfs_ops ;
 
 
-//OK
 static const struct file_operations pnlfs_file_fops;
 
 static const struct file_operations pnlfs_dir_fops;
 
-//OK
 static const struct inode_operations pnlfs_file_iops;
 
 
