@@ -9,7 +9,7 @@ MODULE_LICENSE("GPL");
 MODULE_VERSION("1");
 
 
-/* called when the VFS wishes to free the superblock */
+/* called when the FS wishes to free the superblock */
 /*****************************************************/
 void pnl_put_super(struct super_block *sb)
 {
