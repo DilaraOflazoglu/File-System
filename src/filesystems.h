@@ -16,20 +16,43 @@
 #include "pnlfs.h"
 
 
-extern struct kmem_cache *kmem_cache_inode;
-extern struct buffer_head *buffer_h; // doit rester, utilisé dans sync_fs pour synchroniser le superblock
+/* Cache of created SuperBlock Inode */
+/**************************************/
+extern struct kmem_cache *kmem_cache_inode;	
+
+
+/* Have to stay, used in sync_fs fucntion to synchronized the SuperBlock */
+/*************************************************************************/
+extern struct buffer_head *buffer_h;
+
+
+/* Structure to store some data */
+/************************/
 extern struct pnlfs_sb_info *sb_info;
+
+/* SuperBlock structure */
+/************************/
 extern struct pnlfs_superblock *super_block;
 
 
-static const struct super_operations pnlfs_ops ;
+/* This structure contains SuperBlock's functions */
+/**************************************************/
+static const struct super_operations pnlfs_ops;
 
 
-static const struct file_operations pnlfs_file_fops;
+/* This structure contains Inode's functions */
+/*********************************************/
+static const struct inode_operations pnlfs_file_iops;
 
+
+/* This structure contains directory's functions */
+/*************************************************/
 static const struct file_operations pnlfs_dir_fops;
 
-static const struct inode_operations pnlfs_file_iops;
+
+/* This structure contains file's functions */
+/********************************************/
+static const struct file_operations pnlfs_file_fops;
 
 
 
