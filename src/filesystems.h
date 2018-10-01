@@ -9,7 +9,6 @@
 #include <linux/stat.h>
 #include <linux/statfs.h>
 #include <linux/proc_fs.h>
-
 #include <linux/types.h>
 
 
@@ -55,8 +54,4 @@ static const struct file_operations pnlfs_dir_fops;
 static const struct file_operations pnlfs_file_fops;
 
 
-
-
 #endif
-
-

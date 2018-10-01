@@ -9,7 +9,6 @@
 #include <linux/stat.h>
 #include <linux/statfs.h>
 #include <linux/proc_fs.h>
-
 #include <linux/types.h>
 
 #include "pnlfs.h"
