@@ -5,7 +5,7 @@
 #include "general_fonctions.c"
 #include "SuperBlock_functions.c"
 #include "directory_functions.c"
-#include "fonctions8.c"
+#include "inodes_fonctions.c"
 #include "fonctions9.c"
 #include "fonctions10.c"
 #include "fonctions11.c"
