@@ -1,6 +1,4 @@
-#include "filesystems.h"
-#include "general_fonctions.h"
-#include "SuperBlock_functions.h"
+#include "statfs_function.h"
 
 
 /* fonction statfs, remplit la structure

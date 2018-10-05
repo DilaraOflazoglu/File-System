@@ -1,9 +1,14 @@
+#My personel files
+src/kernel
+src/script.sh
+src/Makefile
+
 # Prerequisites
 *.d
 
 # Object files
-*.o
-*.ko
+src/*.o
+src/*.ko
 *.obj
 *.elf
 
@@ -43,10 +48,10 @@
 *.pdb
 
 # Kernel Module Compile Results
-*.mod*
+src/*.mod*
 *.cmd
 .tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
+src/modules.order
+src/Module.symvers
+src/Mkfile.old
 dkms.conf

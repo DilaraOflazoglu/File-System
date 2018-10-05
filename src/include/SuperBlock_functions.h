@@ -1,5 +1,5 @@
-#ifndef FONCTIONSQ15
-#define FONCTIONSQ15
+#ifndef SUPERBLOCK_FUNCTIONS_H
+#define SUPERBLOCK_FUNCTIONS_H
 
 #include <linux/kernel.h>
 #include <linux/module.h>

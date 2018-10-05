@@ -1,15 +1,4 @@
 #include "filesystems.h"
-#include "general_fonctions.h"
-#include "SuperBlock_functions.h"
-
-#include "general_fonctions.c"
-#include "SuperBlock_functions.c"
-#include "directory_functions.c"
-#include "inodes_fonctions.c"
-#include "file_fonctions.c"
-#include "persistence_fonctions.c"
-#include "statfs_fonction.c"
-
 
 
 struct kmem_cache *kmem_cache_inode;	/* Cache of created SuperBlock Inode */
@@ -56,7 +45,6 @@ static const struct inode_operations pnlfs_file_iops = {
 	.rmdir		= pnlfs_rmdir,
 	.rename		= pnlfs_rename,
 	.lookup = pnlfs_lookup,
-	.symlink = pnlfs_symlink,
 };
 
 

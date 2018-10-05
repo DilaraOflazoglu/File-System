@@ -13,6 +13,13 @@
 
 
 #include "pnlfs.h"
+#include "general_functions.h"
+#include "SuperBlock_functions.h"
+#include "file_functions.h"
+#include "directory_functions.h"
+#include "inodes_functions.h"
+#include "persistence_functions.h"
+#include "statfs_function.h"
 
 
 /* Cache of created SuperBlock Inode */

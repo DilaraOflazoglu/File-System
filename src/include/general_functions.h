@@ -1,5 +1,5 @@
-#ifndef F_GENERALE_H
-#define F_GENERALE_H
+#ifndef GENERAL_FUNCTIONS_H
+#define GENERAL_FUNCTIONS_H
 
 
 #include <linux/kernel.h>
@@ -12,6 +12,7 @@
 #include <linux/proc_fs.h>
 #include <linux/types.h>
 
+#include "filesystems.h"
 
 
 struct pnlfs_inode_info *pnlfs_inode_info_of(struct inode *vfs_inode);

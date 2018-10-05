@@ -1,6 +1,6 @@
 #include "filesystems.h"
 #include "SuperBlock_functions.h"
-#include "general_fonctions.h"
+#include "general_functions.h"
 
 
 MODULE_DESCRIPTION("Creation of a File System");
