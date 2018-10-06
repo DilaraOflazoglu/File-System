@@ -9,7 +9,7 @@ EXTRA_CFLAGS := -I$(INCLUDE)
 
 
 obj-m := filesystems.o 
-filesystems-y := $(SRC)/filesystems.o $(SRC)/general_functions.o $(SRC)/file_functions.o $(SRC)/SuperBlock_functions.o $(SRC)/directory_functions.o
+filesystems-objs := $(SRC)/filesystems.o $(SRC)/general_functions.o $(SRC)/file_functions.o $(SRC)/SuperBlock_functions.o $(SRC)/directory_functions.o $(SRC)/inodes_functions.o $(SRC)/persistence_functions.o $(SRC)/statfs_function.o
 
 
 all :
