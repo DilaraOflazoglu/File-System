@@ -1,12 +1,12 @@
 #My personel files
 src/kernel
 src/script.sh
-src/Makefile
 
 # Prerequisites
 *.d
 
 # Object files
+src/src/*.o
 src/*.o
 src/*.ko
 *.obj

@@ -1,4 +1,4 @@
-#include "file_functions.h"
+#include "./../include/file_functions.h"
 
 /*
  *	@file: the file to read from

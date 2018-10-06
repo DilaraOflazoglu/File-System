@@ -1,4 +1,4 @@
-#include "statfs_function.h"
+#include "./../include/statfs_function.h"
 
 
 /* fonction statfs, remplit la structure
