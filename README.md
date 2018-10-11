@@ -10,7 +10,7 @@ Implementation of a File System as a module compatible with Linux 4.9.83.
 	-	make
 
 Then you have to load the module into the Kernel : <br />
-&nbsp; &nbsp; &nbsp;-&nbsp; &nbsp; &nbsp;insmod filesystems.ko  <br />
+&nbsp; &nbsp; &nbsp;-&nbsp; &nbsp; &nbsp;insmod filesystems.ko  <br />  <br />
 You have to create a directory to mount the disk image :  <br />
 &nbsp; &nbsp; &nbsp;-&nbsp; &nbsp; &nbsp;mkdir dir  <br />
 &nbsp; &nbsp; &nbsp;-&nbsp; &nbsp; &nbsp;mount -t filesystems -o loop disk.img dir/  <br />
